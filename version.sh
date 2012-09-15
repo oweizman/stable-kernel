@@ -26,8 +26,8 @@ KERNEL_TAG=${KERNEL_REL}.42
 BUILD=x4
 
 #git branch
-BRANCH="v3.0.x"
+BRANCH="v3.0.x-biomimetic"
 
-BUILDREV=1.0
-DISTRO=cross
-DEBARCH=armel
+BUILDREV=`date '+%Y%m%d%H%M%S'`
+DISTRO=biomimetic
+DEBARCH=armhf
